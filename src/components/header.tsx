@@ -25,8 +25,8 @@ export default function Header() {
 
 
    return (
-      <header className="bg-white shadow-md">
-         <div className="max-w-7xl h-fit mx-auto px-4 sm:px-6 lg:px-8">
+      <header className="w-full shadow-md bg-white">
+         <div className="max-w-6xl mx-auto ">
             <div className="flex justify-between items-center h-24">
                {/* Logo */}
                <div className="flex items-center">
@@ -45,7 +45,7 @@ export default function Header() {
                               <NavigationMenuLink
                                  active={ pathname === link.href}
                                  href={link.href}
-                                 className="text-md tracking-widest font-semibold text-muted-foreground hover:text-primary border-b-primary hover:border-b-violet-600 data-[active]:border-b-violet-600 h-full justify-center rounded-none border-y-2 border-transparent py-1.5  hover:bg-transparent data-[active]:bg-transparent!"
+                                 className=" text-md tracking-widest font-semibold text-muted-foreground hover:text-primary border-b-primary hover:border-b-violet-600 data-[active]:border-b-violet-600 h-full justify-center rounded-none border-y-2 border-transparent py-1.5  hover:bg-transparent data-[active]:bg-transparent!"
                               >
                                  {link.label}
                               </NavigationMenuLink>

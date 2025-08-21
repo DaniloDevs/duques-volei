@@ -12,7 +12,6 @@ import banner1 from "@/assets/img/banner1.png"
 import banner2 from "@/assets/img/banner2.png"
 import banner3 from "@/assets/img/banner3.png"
 import banner4 from "@/assets/img/banner4.png"
-import banner5 from "@/assets/img/banner5.png"
 import React from "react"
 
 export default function Hero() {
@@ -32,23 +31,26 @@ export default function Hero() {
   ]
 
   return (
-    <section id="inicio" className="max-w-7xl flex flex-col items-center mt-4 ">
-      <div className="relative ">
+    <section id="inicio">
+      <div className="relative mx-auto">
         <Carousel
           plugins={[plugin.current]}
-          className="px-2"
+          opts={{
+            loop: true
+          }}
+          className="px-2 flex items-center justify-center"
         >
-          <CarouselContent className="w-full">
+          <CarouselContent className="">
             {images.map((image, index) => (
               <CarouselItem key={index}>
-                <div className="flex justify-center">
+                <div className="">
                   <Image
                     src={image.src}
                     alt={image.alt}
                     placeholder="blur"
                     priority={index === 0}
                     style={{ width: "100%", height: "450px" }}
-                    className="object-cover rounded"
+                    className="object-cover rounded-xl" 
                   />
                 </div>
               </CarouselItem>
@@ -59,7 +61,7 @@ export default function Hero() {
 
         <div className="absolute bottom-4 px-6 z-20 text-white ">
           <div className="text-start  ">
-            <h1 className="text-3xl md:text-5xl tracking-widest font-bold mb-3 backdrop-blur-[4px] w-fit">Duques Vôlei Clube</h1>
+            <h1 className="text-3xl md:text-5xl tracking-widest font-bold mb-3 backdrop-blur-[8px] w-fit">Duques Vôlei Clube</h1>
             <p className="text-lg md:text-xl max-w-3xl backdrop-blur-[2px]">
               Formando atletas de excelência e promovendo o esporte através da dedicação,
               disciplina e paixão pelo vôlei.
