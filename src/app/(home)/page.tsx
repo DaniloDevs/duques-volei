@@ -5,11 +5,13 @@ import NossoTime from "@/components/nosso-time";
 import Titulos from "@/components/titulos";
 import Contato from "@/components/contato";
 import Footer from "@/components/footer";
+import Banner from "@/components/banner";
 
 export default function Home() {
   return (
     <main className=" min-h-screen bg-violet-100 flex flex-col items-center">
       <Header />
+      <Banner />
 
       <main className="max-w-6xl mt-4 flex flex-col gap-12 items-center mb-10">
         <Hero />
@@ -19,6 +21,7 @@ export default function Home() {
     <Contato />
     <Footer /> */}
       </main>
+
     </main>
   );
 }
