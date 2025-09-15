@@ -25,12 +25,12 @@ export default function Header() {
 
 
    return (
-      <header className="w-full shadow-md bg-white">
+      <header className="w-full shadow-md bg-white sticky top-0 z-40">
          <div className="max-w-6xl mx-auto ">
             <div className="flex justify-between items-center h-24">
                {/* Logo */}
                <div className="flex items-center">
-                  <Image src={Logo} alt="Logo time Duques Volei" className="size-24 p-1"/>
+                  <Image src={Logo} alt="Logo time Duques Volei" className="size-24 p-1" />
                   <div className="flex-shrink-0">
                      <h1 className="text-2xl font-bold text-violet-600">Duques Vôlei</h1>
                   </div>
@@ -43,7 +43,7 @@ export default function Header() {
                         {navigationLinks.map((link, index) => (
                            <NavigationMenuItem key={index} className="h-full">
                               <NavigationMenuLink
-                                 active={ pathname === link.href}
+                                 active={pathname === link.href}
                                  href={link.href}
                                  className=" text-md tracking-widest font-semibold text-muted-foreground hover:text-primary border-b-primary hover:border-b-violet-600 data-[active]:border-b-violet-600 h-full justify-center rounded-none border-y-2 border-transparent py-1.5  hover:bg-transparent data-[active]:bg-transparent!"
                               >
