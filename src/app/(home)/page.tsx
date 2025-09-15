@@ -4,6 +4,8 @@ import Sobre from "@/components/sobre";
 import NossoTime from "@/components/nosso-time";
 import Titulos from "@/components/titulos";
 import Banner from "@/components/banner";
+import Contato from "@/components/contato";
+import Footer from "@/components/footer";
 
 export default function Home() {
   return (
@@ -16,8 +18,8 @@ export default function Home() {
         <Sobre />
         <NossoTime />
         <Titulos />
-        {/* <Contato />
-    <Footer /> */}
+        <Contato />
+        {/* <Footer /> */}
       </main>
     </main>
   );

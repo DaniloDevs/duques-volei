@@ -34,29 +34,29 @@ export default function Titulos() {
    return (
       <section id="titulos" className="w-full px-8 md:px-0">
          <div className="">
-            <div className="text-start mb-8">
+            <div className="text-start mb-6 md:mb-8">
                <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-2">
-               Alguns dos Nossos Títulos
+                  Alguns dos Nossos Títulos
                </h2>
-               <p className="text-lg text-gray-600">
+               <p className="text-base md:text-lg text-gray-600">
                   Conquistas que representam o trabalho árduo e dedicação de nossos atletas
                </p>
             </div>
 
-            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-5 md:gap-6">
                {titulos.map((titulo) => {
                   const IconComponent = titulo.icon
                   return (
                      <div
                         key={titulo.id}
-                        className="bg-white rounded-lg shadow-lg hover:shadow-xl transition-all duration-300 p-6 border border-gray-100 hover:scale-105"
+                        className="bg-white rounded-lg shadow-lg hover:shadow-xl transition-transform duration-300 p-6 border border-gray-100 hover:scale-[1.02]"
                      >
-                        <div className="flex items-center justify-between mb-4">
+                        <div className="flex items-center justify-between mb-3">
                            <span className="text-2xl font-bold text-blue-600">{titulo.ano}</span>
                            <IconComponent className={`w-8 h-8 ${titulo.cor}`} />
                         </div>
 
-                        <h3 className="text-xl font-semibold text-gray-900 mb-2">
+                        <h3 className="text-lg md:text-xl font-semibold text-gray-900 mb-2">
                            {titulo.titulo}
                         </h3>
 
@@ -69,8 +69,6 @@ export default function Titulos() {
                   )
                })}
             </div>
-
-          
          </div>
       </section>
    )
