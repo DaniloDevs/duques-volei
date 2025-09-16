@@ -19,7 +19,7 @@ export default function Home() {
         <NossoTime />
         <Titulos />
         <Contato />
-        {/* <Footer /> */}
+        <Footer />
       </main>
     </main>
   );
