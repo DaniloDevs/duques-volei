@@ -38,7 +38,7 @@ export default function ContatoCard() {
       return
     }
 
-    const phone = "+552199650-0813" // insira o número com DDI + DDD
+    const phone = "5521996500813" // insira o número com DDI + DDD
     const text = `*${titulo}*\n\n${mensagem}`
     const url = `https://wa.me/${phone}?text=${encodeURIComponent(text)}`
     window.open(url, "_blank")
