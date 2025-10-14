@@ -19,8 +19,9 @@ export default function Home() {
         <NossoTime />
         <Titulos />
         <Contato />
-        <Footer />
       </main>
+
+      <Footer />
     </main>
   );
 }
