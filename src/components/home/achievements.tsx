@@ -30,7 +30,7 @@ const titulos = [
    },
 ]
 
-export default function Titulos() {
+export default function AchievementsSection() {
    return (
       <section id="titulos" className="w-full px-8 md:px-0">
          <div className="">

@@ -1,10 +1,10 @@
 import Header from "@/components/header";
-import Hero from "@/components/homepage/hero";
-import Sobre from "@/components/homepage/sobre";
-import NossoTime from "@/components/homepage/nosso-time";
-import Titulos from "@/components/homepage/titulos";
-import Banner from "@/components/homepage/banner";
-import Contato from "@/components/homepage/contato";
+import Hero from "@/components/home/hero";
+import Sobre from "@/components/home/about";
+import NossoTime from "@/components/home/time-section";
+import Titulos from "@/components/home/achievements";
+import Banner from "@/components/home/banner";
+import Contato from "@/components/home/contact-card";
 import Footer from "@/components/footer";
 
 export default function Home() {

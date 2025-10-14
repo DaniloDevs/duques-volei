@@ -1,10 +1,10 @@
 
 import Header from "@/components/header";
-import Banner from "@/components/homepage/banner";
+import Banner from "@/components/home/banner";
 import Footer from "@/components/footer";
-import AboutCard from "@/components/about/landpage";
+import AboutCard from "@/components/about/about-card";
 import ReviewCard from "@/components/about/review-card";
-import MetaSection from "@/components/about/metas";
+import MarckSection from "@/components/about/mark";
 
 
 export default function Home() {
@@ -16,7 +16,7 @@ export default function Home() {
       <main className="max-w-6xl mt-4 flex flex-col gap-1 items-center mb-10">
         <AboutCard />
         <ReviewCard />
-        <MetaSection />
+        <MarckSection />
       </main>
 
       <Footer />

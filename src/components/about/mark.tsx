@@ -1,7 +1,7 @@
 import { Card } from "../ui/card"
 
 
-export default function MetaSection() {
+export default function MarckSection() {
    const metas = [
       {
          title: "Competir em Alto Nível",
