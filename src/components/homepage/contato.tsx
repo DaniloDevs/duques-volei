@@ -5,8 +5,8 @@ import { Phone, Mail, MapPin, Send } from "lucide-react"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
 import { Label } from "@/components/ui/label"
-import { Textarea } from "./ui/textarea"
-import { Input } from "./ui/input"
+import { Textarea } from "../ui/textarea"
+import { Input } from "../ui/input"
 
 const informacoesContato = [
   {
@@ -22,9 +22,9 @@ const informacoesContato = [
   {
     icon: MapPin,
     titulo: "Endereço",
-    valor: "Rua das Palmeiras, 123",
-    descricao: "Centro - São Paulo/SP",
-    href: "https://maps.google.com/?q=Rua+das+Palmeiras+123+Centro+São+Paulo+SP",
+    valor: "R. Baltazar da Silveira",
+    descricao: "Vila Guanabara, Duque de Caxias",
+    href: "https://maps.app.goo.gl/YQpYoRjBFoWpjnzS6",
   },
 ]
 

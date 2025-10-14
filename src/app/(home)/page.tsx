@@ -1,10 +1,10 @@
 import Header from "@/components/header";
-import Hero from "@/components/hero";
-import Sobre from "@/components/sobre";
-import NossoTime from "@/components/nosso-time";
-import Titulos from "@/components/titulos";
-import Banner from "@/components/banner";
-import Contato from "@/components/contato";
+import Hero from "@/components/homepage/hero";
+import Sobre from "@/components/homepage/sobre";
+import NossoTime from "@/components/homepage/nosso-time";
+import Titulos from "@/components/homepage/titulos";
+import Banner from "@/components/homepage/banner";
+import Contato from "@/components/homepage/contato";
 import Footer from "@/components/footer";
 
 export default function Home() {

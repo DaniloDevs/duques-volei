@@ -14,9 +14,9 @@ const linksRapidos = [
 ]
 
 const contatos = [
-  { icon: Phone, text: "(11) 99999-9999" },
-  { icon: Mail, text: "contato@duquesvolei.com.br" },
-  { icon: MapPin, text: "Rua das Palmeiras, 123<br />Centro - São Paulo/SP" }
+  { icon: Phone, text: "(21) 99650-0813" },
+  { icon: Mail, text: "duques.voleibol@gmail.com" },
+  { icon: MapPin, text: "R. Baltazar da Silveira - Vila Guanabara, Duque de Caxias" }
 ]
 
 export default function Footer() {
